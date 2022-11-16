@@ -14,9 +14,9 @@
                 android:ems="10"
                 android:id="@+id/input" android:hint="Input something"/>
         <Button
-                android:text="Input"
+                android:text="Save"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/btn_input"/>
+                android:layout_height="wrap_content" android:id="@+id/btn_save"/>
         <Button
                 android:text="Load"
                 android:layout_width="match_parent"

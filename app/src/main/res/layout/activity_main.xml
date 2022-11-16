@@ -9,7 +9,13 @@
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent" android:gravity="center">
+        <Button
+
+                android:text="@string/go_to_file"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content" android:id="@+id/btn_file"
+        />
         <Button
 
                 android:text="@string/go_to_share"
@@ -18,14 +24,8 @@
         />
         <Button
 
-                android:text="@string/go_to_file"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/btn_file"
-        />
-        <Button
-
                 android:text="@string/go_to_sql"
-                android:layout_width="wrap_content"
+                android:layout_width="135dp"
                 android:layout_height="wrap_content" android:id="@+id/btn_sql"
         />
     </LinearLayout>

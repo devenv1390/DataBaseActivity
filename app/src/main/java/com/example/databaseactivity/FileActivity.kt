@@ -14,7 +14,7 @@ class FileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_file)
-        btn_input.setOnClickListener {
+        btn_save.setOnClickListener {
             //提取输入的文本
             val input_text = input.text.toString()
             //存储到相应的文件
