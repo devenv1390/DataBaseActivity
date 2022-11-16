@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,FileActivity::class.java)
             startActivity(intent)
         }
+        btn_share.setOnClickListener{
+            val intent = Intent(this,SPrefActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
