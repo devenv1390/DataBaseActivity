@@ -1,11 +1,13 @@
 package com.example.databaseactivity
 
+import android.annotation.SuppressLint
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_spref.*
 
 class SPrefActivity : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_spref)
@@ -21,7 +23,7 @@ class SPrefActivity : AppCompatActivity() {
             val name = prefs.getString("name", "")
             val age = prefs.getInt("age", 0)
             val married = prefs.getBoolean("married", false)
-            textPrefView.setText("name=$name, age=$age, married=$married")
+            textPrefView.text = "name=$name, age=$age, married=$married"
         }
     }
 }

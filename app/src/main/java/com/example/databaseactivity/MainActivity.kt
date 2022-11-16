@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,SPrefActivity::class.java)
             startActivity(intent)
         }
+        btn_sql.setOnClickListener{
+            val intent = Intent(this,SQLActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
